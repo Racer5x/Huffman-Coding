@@ -51,7 +51,8 @@ def make_code(para):
 	par[node - 1] = node - 1
 	parent = node - 1 #this is root
 	codes = {}
-
+	
+	# Iterating over all the frequencies
 	for c in freq:
 		code = ""
 		node = table[c]
